@@ -61,7 +61,6 @@ Revision: $Rev: 9599 $
 */
 #if (defined __GNUC__) && !(defined __SES_ARM) && !(defined __CROSSWORKS_ARM)
 
-#include <reent.h>  // required for _write_r
 #include "SEGGER_RTT.h"
 
 
